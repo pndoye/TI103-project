@@ -9,9 +9,10 @@ entre 1 et 1000.
 6. Vous devez tester que le nombre entré est correct. Par exemple, retournez une erreur si ce
 qu’entre l’utilisateur n’est pas un nombre, ou n’est pas compris entre 1 et 1000.
 """
+import random
 
-
-a = 520
+a = random.randint(1, 1000)
+print(test_import.fibonacci(test_import.ma_variable))
 
 while True:
 
