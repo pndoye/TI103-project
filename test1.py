@@ -10,9 +10,12 @@ entre 1 et 1000.
 qu’entre l’utilisateur n’est pas un nombre, ou n’est pas compris entre 1 et 1000.
 """
 import random
+import math
+
+import test_import
 
 a = random.randint(1, 1000)
-print(test_import.fibonacci(test_import.ma_variable))
+print(test_import.fibonacci(test_import.mon_variable))
 
 while True:
 
